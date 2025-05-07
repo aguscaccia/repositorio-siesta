@@ -12,56 +12,64 @@
 <body>
     <header>
         <h1>Siesta</h1>
-        <input type="text" value="Buscar">
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./carrito.html">Carrito</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./comocomprar.html">¿Cómo comprar?</a></li>
-            </ul>
-        </nav>
+    <form>
+            <input type="text" value="Buscar">
+    </form>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./productos.html">Productos</a></li>
+            <li><a href="./carrito.html">Carrito</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./comocomprar.html">¿Cómo comprar?</a></li>
+        </ul>
+    </nav>
     </header>
-    <section>
-        <h2>1. ENVÍO | 2. PAGO | 3. REVISIÓN</h2>
-    </section>
-    <section>
-        <h3>Contacto</h3>
-        <label for="email">EMAIL</label>
-        <input type="email" id="email">
-        <input type="checkbox" id="ofertas">
-        <label for="ofertas">Quiero recibir ofertas y novedades</label>
-    </section>
-    <section>
-        <h3>Opciones de Envío</h3>
-        <label for="codigo-postal">Ingresa tu código postal para buscar opciones de envío</label>
-        <input type="text" id="codigo-postal">
-        <button>Buscar</button>
-    </section>
+    <main>
+        <section>
+            <h2>1. ENVÍO | 2. PAGO | 3. REVISIÓN</h2>
+        </section>
+        <section>
+            <h3>Contacto</h3>
+            <form>
+            <label for="email">EMAIL</label>
+            <input type="email" id="email">
+            <input type="checkbox" id="ofertas">
+            <label for="ofertas">Quiero recibir ofertas y novedades</label>
+            </form>
+        </section>
+        <section>
+            <h3>Opciones de Envío</h3>
+            <form>
+            <label for="codigo-postal">Ingresa tu código postal para buscar opciones de envío</label>
+            <input type="text" id="codigo-postal">
+            <button>Buscar</button>
+            </form>
+        </section>
     <section>
         <h3>Mi compra</h3>
-        <div>
+        <article>
             <p>Imagen</p>
             <h5>1x Título</h5>
             <h5>Talle: M</h5>
             <h5>$22.400,00</h5>
             <h5>Subtotal: $22.400,00</h5>
             <h5>Total: $22.400,00</h5>
-        </div>
+        </article>
     </section>
+    </main>
     <footer>
-        <div class="beneficios">
+        <section class="beneficios">
             <p>15% DE DESCUENTO EXTRA CON TRANSFERENCIA BANCARIA</p>
             <p>PAGA EN CUOTAS CON TU TARJETA DE CRÉDITO</p>
             <p>ENVÍOS GRATIS EN COMPRAS SUPERIORES A $99.000</p>
-        </div>
-        <div class="suscripcion">
+        </section>
+        <section class="suscripcion">
             <h5>Suscribite para recibir ofertas y descuentos</h5>
             <input type="email" placeholder="Tu email">
             <button>Enviar</button>
-        </div>
-        <div class="mediosdepagos">
+        </section>
+        <section class="mediosdepagos">
              <p>Medios de pago</p>
                 <div class="logos">
                     <img src="../assets/img/mercadopagologo.png" alt="Logo Mercado Pago">
@@ -73,23 +81,23 @@
                     <img src="../assets/img/caballogo.png" alt="Logo Cabal">
                     <img src="../assets/img/transferencialogo.png" alt="Transferencia Logo">
                 </div>
-            </div>
-            <div class="mediosdeenvios">
+        </section>
+        <section class="mediosdeenvios">
                 <p>Medios de envío</p>
                 <div class="logos">
                     <img src="../assets/img/correoargentinologo.png" alt="Logo Correo Argentino">
                     <img src="../assets/img/enviopersonalizadologo.png" alt="Logo Envío Personalizado">
                     <img src="../assets/img/retirolocallogo.png" alt="Logo Retiro en Local">
                 </div>
-            </div>
-            <div class="redessociales"></div>
+        </section>
+        <section class="redessociales"></div>
             <p>Redes sociales</p>
                 <img src="../assets/img/iglogo.png" alt="Logotipo de Instagram">
                 <img src="../assets/img/fblogo.png" alt="Logotipo de Facebook">
-        </div>
-        <div class="contacto"></div>
+        </section>
+        <section class="contacto"></div>
         <p>Contacto: siesta.contacto@gmail.com - 3416887799 - Córdoba 789, Rosario</p>
-    </div>
+        </section>
 </footer>
 </body>
 </html>
